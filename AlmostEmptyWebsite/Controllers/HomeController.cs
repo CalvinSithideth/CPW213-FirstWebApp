@@ -11,7 +11,9 @@ namespace AlmostEmptyWebsite.Controllers
         /* An ASP.NET Action is a public method
          * in a controller class
          * */
-        public IActionResult Index()
+
+
+        public IActionResult Index() // Name in URL
         {
             return View();
         }
